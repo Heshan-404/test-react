@@ -1,0 +1,45 @@
+npm/node install
+	https://nodejs.org/en
+
+vs-code cmd
+
+	npm create vite@latest
+	
+
+build project
+	cd to project
+	npm install
+
+run project 
+	npm run dev
+
+create a new file in src dir -> banner.tsx
+
+	function Banner() {
+    	return (
+        	<div>
+            	<h1>Banner</h1>
+        	</div>
+    	)
+	}
+	export default Banner
+
+import (Banner) banner.tsx into App.tsx
+
+	import Banner from "./banner.tsx"
+
+Update the App.tsx
+
+	import Banner from "./banner.tsx";
+	
+	function App() {
+  		return (
+    	<div>
+      		<Banner />
+      		<h1>Hello</h1>
+    	</div>
+  		)
+	}
+	export default App
+
+
